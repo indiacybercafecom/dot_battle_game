@@ -1,0 +1,6 @@
+{
+  "name": "Dot Battle",
+  "description": "Turn-based Dots and Boxes strategy game featuring solo vs AI, multi-AI battles, and online multiplayer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

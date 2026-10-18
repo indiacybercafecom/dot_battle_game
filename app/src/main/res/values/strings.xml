@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dot Battle</string>
+    <string name="title_play_online">Play Online</string>
+    <string name="title_play_ai">Play vs AI</string>
+    <string name="title_multi_ai">Multi-AI Battle</string>
+    <string name="title_how_to_play">How to Play</string>
+    <string name="title_settings">Settings</string>
+</resources>

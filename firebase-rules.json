@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "rooms": {
+      "$roomId": {
+        ".read": "auth != null",
+        ".write": "auth != null && (!data.exists() || data.child('hostPlayerId').val() === auth.uid || data.child('guestPlayerId').val() === auth.uid)",
+        "metadata": {
+          ".validate": "newData.hasChildren(['roomId', 'hostPlayerId', 'createdAt'])"
+        },
+        "state": {
+          ".validate": "newData.hasChildren(['boardSize', 'currentPlayerIndex', 'sequenceNumber'])"
+        },
+        "moves": {
+          "$moveSeq": {
+            ".validate": "newData.hasChildren(['orientation', 'row', 'col', 'playerId'])"
+          }
+        }
+      }
+    },
+    "queue": {
+      "$userId": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid === $userId"
+      }
+    }
+  }
+}

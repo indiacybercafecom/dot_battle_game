@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Safe area: center is (54, 54), radius ~33dp. Grid from 32 to 76 -->
+    <!-- Top-Left captured box (Orange) -->
+    <path
+        android:pathData="M 34,34 L 54,34 L 54,54 L 34,54 Z"
+        android:fillColor="#33E66239" />
+    <!-- Bottom-Right captured box (Cyan) -->
+    <path
+        android:pathData="M 54,54 L 74,54 L 74,74 L 54,74 Z"
+        android:fillColor="#3300D2FF" />
+
+    <!-- Connecting Edges -->
+    <!-- Top horizontal: (34,34) to (54,34) -->
+    <path
+        android:pathData="M 34,34 L 54,34"
+        android:strokeColor="#E66239"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- Left vertical: (34,34) to (34,54) -->
+    <path
+        android:pathData="M 34,34 L 34,54"
+        android:strokeColor="#E66239"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- Middle horizontal: (34,54) to (54,54) -->
+    <path
+        android:pathData="M 34,54 L 54,54"
+        android:strokeColor="#E66239"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- Center vertical: (54,34) to (54,54) -->
+    <path
+        android:pathData="M 54,34 L 54,54"
+        android:strokeColor="#E66239"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Cyan box edges -->
+    <!-- Middle-right horizontal: (54,54) to (74,54) -->
+    <path
+        android:pathData="M 54,54 L 74,54"
+        android:strokeColor="#00D2FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- Bottom-right horizontal: (54,74) to (74,74) -->
+    <path
+        android:pathData="M 54,74 L 74,74"
+        android:strokeColor="#00D2FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- Center-bottom vertical: (54,54) to (54,74) -->
+    <path
+        android:pathData="M 54,54 L 54,74"
+        android:strokeColor="#00D2FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- Right-bottom vertical: (74,54) to (74,74) -->
+    <path
+        android:pathData="M 74,54 L 74,74"
+        android:strokeColor="#00D2FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- 3x3 Grid Dots (radius 3.5, filled with crisp white) -->
+    <path android:pathData="M 34,34 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" android:fillColor="#FFFFFF" />
+    <path android:pathData="M 54,34 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" android:fillColor="#FFFFFF" />
+    <path android:pathData="M 74,34 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" android:fillColor="#737373" />
+
+    <path android:pathData="M 34,54 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" android:fillColor="#FFFFFF" />
+    <path android:pathData="M 54,54 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0" android:fillColor="#FFD166" />
+    <path android:pathData="M 74,54 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" android:fillColor="#FFFFFF" />
+
+    <path android:pathData="M 34,74 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" android:fillColor="#737373" />
+    <path android:pathData="M 54,74 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" android:fillColor="#FFFFFF" />
+    <path android:pathData="M 74,74 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" android:fillColor="#FFFFFF" />
+</vector>
